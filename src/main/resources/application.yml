@@ -1,0 +1,13 @@
+spring:
+  redis:
+    host: 192.168.16.9
+    port: 20001
+    database: 2
+    password: water@20145?!
+    timeout: 5000
+    lettuce:
+      pool:
+        max-idle: 8
+        max-wait: 1000
+        max-active: 20
+        min-idle: 3
